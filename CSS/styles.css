@@ -1,7 +1,12 @@
 
-h1 {
+h1, h2 {
   font-size: 70px;
   font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+h3 {
+  color: white;
 }
 
 li.nostyle {
@@ -15,6 +20,10 @@ p, li, ol {
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -60,6 +69,7 @@ footer p {
   padding: 20px 40px 20px 40px;
   font-size: 70px;
   display: flex;
+  margin: 0;
 }
 
 .github-icon {
@@ -98,11 +108,13 @@ footer p {
   display: flex;
   align-items: center;
   padding: 20px 40px 20px 40px;
+  margin: 0;
   background-color: #202020;
 }
 
 .intro .right-side {
   padding: 20px 40px 20px 40px;
+  margin: 0;
   font-size: 20px;
   display: flex;
 }
