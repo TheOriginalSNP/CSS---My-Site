@@ -40,12 +40,16 @@ footer p {
   color: white;
 }
 
+
+/*About me section is simple for now*/
 .about-me {
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
+
+/*The next 4 are for the contact section */
 .contact-section {
   display: flex;
   height: 500px;
@@ -72,6 +76,8 @@ footer p {
   margin: 0;
 }
 
+
+/*Code below  is for the hero section*/
 .github-icon {
   max-width: 70px;
   padding-right: 30px;
