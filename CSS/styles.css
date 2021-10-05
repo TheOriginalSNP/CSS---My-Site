@@ -9,7 +9,7 @@ h3 {
   color: white;
 }
 
-li.nostyle {
+.nostyle {
   list-style-type: none;
 }
 
@@ -106,7 +106,7 @@ footer p {
   justify-content: center;
 }
 
-.intro .left-side h1 {
+.left-side-copy {
   color: white;
 }
 
